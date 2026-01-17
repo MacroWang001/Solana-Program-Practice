@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+vault = "3WsoQho1kZw5JnLp9qc3s5Bt8gSygwQn8zeSNCYXKrvU"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://devnet.helius-rpc.com/?api-key=0201d28e-3a40-4c01-9d0f-726ecfafda89"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
