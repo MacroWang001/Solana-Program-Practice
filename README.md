@@ -1,1 +1,1 @@
-## Solana blockchain development bootcamp projects
+# Solana blockchain Dapp Development Practice
